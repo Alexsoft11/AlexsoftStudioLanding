@@ -1,0 +1,20 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./index.tsx",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./App.tsx",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Outfit', 'sans-serif'],
+        display: ['Unbounded', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+      },
+    },
+  },
+  plugins: [],
+}

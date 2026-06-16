@@ -53,16 +53,16 @@ const PremiumBackground: React.FC = () => {
   const glowX = useTransform(smoothX, [-0.5, 0.5], ['30%', '70%']);
   const glowY = useTransform(smoothY, [-0.5, 0.5], ['30%', '70%']);
 
-  const particles = useMemo(() => {
-    return Array.from({ length: 25 }).map((_, i) => ({
+  const [particles] = useState(() => 
+    Array.from({ length: 25 }).map((_, i) => ({
       id: i,
       left: `${Math.random() * 100}%`,
       top: `${Math.random() * 100}%`,
       size: Math.random() * 2 + 0.5,
       duration: Math.random() * 20 + 10,
       delay: Math.random() * -20,
-    }));
-  }, []);
+    }))
+  );
 
   return (
     <div className="fixed inset-0 pointer-events-none z-[-1] overflow-hidden bg-[#080808] isolation-auto">

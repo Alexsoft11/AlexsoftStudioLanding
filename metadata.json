@@ -1,5 +1,6 @@
 {
-  "name": "AlexsoftStudio Premium Portfolio",
-  "description": "A high-end, premium dark portfolio for AlexsoftStudio featuring smooth animations, glassmorphism, and elegant typography.",
-  "requestFramePermissions": []
+  "name": "Alexsoft Studio | Premium Software & AI Solutions in Uzbekistan",
+  "description": "Alexsoft Studio is a premier technology partner in Uzbekistan specializing in high-end software development, AI-driven automation, and intelligent business systems. We transform enterprises with custom ERP, CRM, and premium digital ecosystems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
